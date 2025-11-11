@@ -1,8 +1,8 @@
 %define glib2_version 2.38.0
 
 Name:           libnotify
-Version:        0.8.3
-Release:        6%{?dist}
+Version:        0.8.6
+Release:        1%{?dist}
 Summary:        Desktop notification library
 
 License:        LGPL-2.1-or-later
@@ -63,6 +63,10 @@ development of programs using %{name}.
 %doc %{_docdir}/libnotify/spec/
 
 %changelog
+* Mon May 05 2025 Florian Müllner <fmuellner@redhat.com> - 0.8.6-6
+- Update to 0.8.6
+  Resolves: RHEL-88017
+
 * Tue Oct 29 2024 Troy Dawson <tdawson@redhat.com> - 0.8.3-6
 - Bump release for October 2024 mass rebuild:
   Resolves: RHEL-64018
